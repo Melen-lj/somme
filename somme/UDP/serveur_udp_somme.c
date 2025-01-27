@@ -14,8 +14,8 @@ int main(int argc, char** argv) {
     int port = atoi(argv[1]);
 
     traiter_commande(port > 1024, argv[0], "<port>\n<port> est un port non réservé");
+    
 
    
-
     exit(0);
 }
