@@ -37,4 +37,4 @@ nombre.o: nombre.c nombre.h
 	$(COMPILER) -c nombre.c -o nombre.o
 $(EXE_DIR):
 	mkdir -p $(EXE_DIR)
-gcc -c -wall test_unitaire.c
+gcc -c prog -wall test_unitaire.c
