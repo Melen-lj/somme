@@ -2,7 +2,7 @@ COMPILER=gcc
 EXE_DIR=/tmp/
 FICHIERS=erreur tcp nombre
 OBJS:=$(FICHIERS:%=%.o)
-all: division echo ping_pong somme relais
+all: somme
 	-rm $(OBJS)
 somme: client_tcp_somme.c serveur_tcp_somme.c $(EXE_DIR) $(OBJS)
 	mkdir -p $(EXE_DIR)/$@/TCP
