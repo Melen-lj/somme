@@ -25,3 +25,4 @@ nombre.o: nombre.c nombre.h
 
 $(EXE_DIR):
 	mkdir -p $(EXE_DIR)
+gcc -c -wall test_unitaire.c
